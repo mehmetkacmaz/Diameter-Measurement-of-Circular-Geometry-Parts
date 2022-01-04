@@ -33,6 +33,8 @@ Zernike-Moments Based Edge Detection With Sub-Pixel Accuracy Method was created 
 
 ------ USER GUIDE ----------------------------------------------------------------------------------------------------------------------------------
 
+Python Version: 3.7.0
+
 ![image](https://user-images.githubusercontent.com/52501795/148018520-1db6ae1c-0174-46a2-a8ca-a84bf28ff4e5.png)
 
 First, the libraries.py file can be run to ensure that the necessary libraries for the program are installed and the program can run in the same code.
