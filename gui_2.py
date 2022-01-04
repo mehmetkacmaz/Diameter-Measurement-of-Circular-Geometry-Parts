@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'C:/Users/kalitestajyer/Desktop/ALL/gui.ui'
-#
-# Created by: PyQt5 UI code generator 5.6
-#
-# WARNING! All changes made in this file will be lost!
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
@@ -260,7 +252,6 @@ import glob
 from ctypes import *
 import math
 import random 
-from numpy.lib.npyio import savetxt
 
 import numpy as np
 import pandas as pd
@@ -333,6 +324,7 @@ class GUI(QMainWindow):
         except (FileExistsError):
             print("Folders Already Exists")
             pass
+        
         except Exception as e:
             raise e
         
@@ -790,30 +782,22 @@ class GUI(QMainWindow):
             gpars_list.append("ghosal_edge_parameters.txt")
             weight_list.append("1500kg")
                     
-        # Name,process,GPars,averageWeight
-
         df = pd.DataFrame({'Name': name_list, 'process': process_list, 'GPars': gpars_list, 'averageWeight': weight_list})
         print(df)
 
         df.to_csv(main_path + "/imageinfo.csv", index=False)
-        
-        ### Read Settings Files
-        # the test matrix contains the names of images to be processed 
-        # and information on how to process each one
-        
+
         img_info = pd.read_csv(
             os.path.join(main_path,"imageinfo.csv"),sep=",")
         idx_cases = np.where(img_info.process == "x")
-        img_info = img_info.iloc[idx_cases[0]] # remove images wo/ x
+        img_info = img_info.iloc[idx_cases[0]]
         ncases = len(img_info)
-        # the folder where the results are to be saved
         
         save = pd.read_csv(os.path.join(main_path,"saveTo.csv"),sep="	").iloc[0].directory
         
         if not os.path.isdir(save):
-            os.mkdir(save)
-        
-        # new folder with timestamp
+            os.mkdir(save)    
+
         savedirect = os.path.join(save)
         if not os.path.isdir(savedirect):
             os.mkdir(savedirect)
@@ -876,8 +860,10 @@ class GUI(QMainWindow):
         np.savetxt(main_path + "/zernike_moment_py.csv", rad_list)
 
 application = QApplication([])
+
 # Force the style to be the same on all OSs:
 #application.setStyle("Fusion")
+
 window = GUI()
 window.show()
 
