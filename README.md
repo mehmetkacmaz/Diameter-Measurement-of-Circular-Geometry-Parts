@@ -66,8 +66,9 @@ First, the libraries.py file can be run to ensure that the necessary libraries f
 
 The diameter values obtained after pressing the relevant button are stored in the folder selected for excel files.
 
+.
 
-
+.
 
 [1] Grompone von Gioi, R y Randall, G. "A sub-pixel edge detector: an implementation of the Canny/Devernay Algorithm". Image Processing On Line. 2017, vol. 7, pp. 347–372.
 
