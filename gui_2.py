@@ -1,34 +1,22 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:/Users/kalitestajyer/Desktop/ALL/gui.ui'
+#
+# Created by: PyQt5 UI code generator 5.6
+#
+# WARNING! All changes made in this file will be lost!
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(579, 663)
+        MainWindow.resize(1761, 886)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget_methods = QtWidgets.QTabWidget(self.centralwidget)
-        self.tabWidget_methods.setGeometry(QtCore.QRect(10, 10, 561, 611))
+        self.tabWidget_methods.setGeometry(QtCore.QRect(590, 10, 561, 611))
         self.tabWidget_methods.setObjectName("tabWidget_methods")
-        self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setObjectName("tab_2")
-        self.pushButton_excelfilesfolder = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton_excelfilesfolder.setGeometry(QtCore.QRect(20, 20, 521, 23))
-        self.pushButton_excelfilesfolder.setObjectName("pushButton_excelfilesfolder")
-        self.pushButton = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton.setGeometry(QtCore.QRect(20, 50, 521, 23))
-        self.pushButton.setObjectName("pushButton")
-        self.pushButton_create = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton_create.setGeometry(QtCore.QRect(20, 80, 521, 23))
-        self.pushButton_create.setObjectName("pushButton_create")
-        self.pushButton_reset = QtWidgets.QPushButton(self.tab_2)
-        self.pushButton_reset.setGeometry(QtCore.QRect(20, 110, 521, 23))
-        self.pushButton_reset.setObjectName("pushButton_reset")
-        self.label_info = QtWidgets.QLabel(self.tab_2)
-        self.label_info.setGeometry(QtCore.QRect(20, 150, 521, 431))
-        self.label_info.setFrameShape(QtWidgets.QFrame.NoFrame)
-        self.label_info.setWordWrap(True)
-        self.label_info.setObjectName("label_info")
-        self.tabWidget_methods.addTab(self.tab_2, "")
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
         self.groupBox = QtWidgets.QGroupBox(self.tab)
@@ -180,9 +168,130 @@ class Ui_MainWindow(object):
         self.label_4.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.label_4.setObjectName("label_4")
         self.tabWidget_methods.addTab(self.tab, "")
+        self.tab_2 = QtWidgets.QWidget()
+        self.tab_2.setObjectName("tab_2")
+        self.tabWidget_methods.addTab(self.tab_2, "")
+        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget.setGeometry(QtCore.QRect(10, 10, 568, 611))
+        self.tabWidget.setObjectName("tabWidget")
+        self.tab_4 = QtWidgets.QWidget()
+        self.tab_4.setObjectName("tab_4")
+        self.label_info = QtWidgets.QLabel(self.tab_4)
+        self.label_info.setGeometry(QtCore.QRect(20, 10, 521, 431))
+        self.label_info.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.label_info.setWordWrap(True)
+        self.label_info.setObjectName("label_info")
+        self.tabWidget.addTab(self.tab_4, "")
+        self.tab_3 = QtWidgets.QWidget()
+        self.tab_3.setObjectName("tab_3")
+        self.tableWidget = QtWidgets.QTableWidget(self.tab_3)
+        self.tableWidget.setGeometry(QtCore.QRect(10, 150, 101, 391))
+        self.tableWidget.setObjectName("tableWidget")
+        self.tableWidget.setColumnCount(1)
+        self.tableWidget.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(0, item)
+        self.listWidget_2 = QtWidgets.QListWidget(self.tab_3)
+        self.listWidget_2.setGeometry(QtCore.QRect(10, 180, 101, 361))
+        self.listWidget_2.setObjectName("listWidget_2")
+        self.listWidget_3 = QtWidgets.QListWidget(self.tab_3)
+        self.listWidget_3.setGeometry(QtCore.QRect(120, 180, 101, 361))
+        self.listWidget_3.setObjectName("listWidget_3")
+        self.tableWidget_2 = QtWidgets.QTableWidget(self.tab_3)
+        self.tableWidget_2.setGeometry(QtCore.QRect(120, 150, 101, 391))
+        self.tableWidget_2.setObjectName("tableWidget_2")
+        self.tableWidget_2.setColumnCount(1)
+        self.tableWidget_2.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget_2.setHorizontalHeaderItem(0, item)
+        self.tableWidget_3 = QtWidgets.QTableWidget(self.tab_3)
+        self.tableWidget_3.setGeometry(QtCore.QRect(230, 150, 101, 281))
+        self.tableWidget_3.setObjectName("tableWidget_3")
+        self.tableWidget_3.setColumnCount(1)
+        self.tableWidget_3.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget_3.setHorizontalHeaderItem(0, item)
+        self.listWidget_4 = QtWidgets.QListWidget(self.tab_3)
+        self.listWidget_4.setGeometry(QtCore.QRect(230, 180, 101, 361))
+        self.listWidget_4.setObjectName("listWidget_4")
+        self.listWidget_5 = QtWidgets.QListWidget(self.tab_3)
+        self.listWidget_5.setGeometry(QtCore.QRect(340, 180, 101, 361))
+        self.listWidget_5.setObjectName("listWidget_5")
+        self.tableWidget_4 = QtWidgets.QTableWidget(self.tab_3)
+        self.tableWidget_4.setGeometry(QtCore.QRect(340, 150, 101, 391))
+        self.tableWidget_4.setObjectName("tableWidget_4")
+        self.tableWidget_4.setColumnCount(1)
+        self.tableWidget_4.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget_4.setHorizontalHeaderItem(0, item)
+        self.tableWidget_5 = QtWidgets.QTableWidget(self.tab_3)
+        self.tableWidget_5.setGeometry(QtCore.QRect(450, 150, 101, 391))
+        self.tableWidget_5.setObjectName("tableWidget_5")
+        self.tableWidget_5.setColumnCount(1)
+        self.tableWidget_5.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget_5.setHorizontalHeaderItem(0, item)
+        self.listWidget_6 = QtWidgets.QListWidget(self.tab_3)
+        self.listWidget_6.setGeometry(QtCore.QRect(450, 180, 101, 361))
+        self.listWidget_6.setObjectName("listWidget_6")
+        self.pushButton_reset = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton_reset.setGeometry(QtCore.QRect(10, 110, 541, 23))
+        self.pushButton_reset.setObjectName("pushButton_reset")
+        self.pushButton_excelfilesfolder = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton_excelfilesfolder.setGeometry(QtCore.QRect(10, 20, 541, 23))
+        self.pushButton_excelfilesfolder.setObjectName("pushButton_excelfilesfolder")
+        self.pushButton_create = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton_create.setGeometry(QtCore.QRect(10, 80, 541, 23))
+        self.pushButton_create.setObjectName("pushButton_create")
+        self.pushButton = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton.setGeometry(QtCore.QRect(10, 50, 541, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.tab_3)
+        self.pushButton_2.setGeometry(QtCore.QRect(10, 550, 541, 23))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.tableWidget.raise_()
+        self.listWidget_2.raise_()
+        self.tableWidget_2.raise_()
+        self.listWidget_3.raise_()
+        self.tableWidget_3.raise_()
+        self.listWidget_4.raise_()
+        self.tableWidget_4.raise_()
+        self.listWidget_5.raise_()
+        self.tableWidget_5.raise_()
+        self.listWidget_6.raise_()
+        self.pushButton_reset.raise_()
+        self.pushButton_excelfilesfolder.raise_()
+        self.pushButton_create.raise_()
+        self.pushButton.raise_()
+        self.pushButton_2.raise_()
+        self.tabWidget.addTab(self.tab_3, "")
+        self.groupBox_7 = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox_7.setGeometry(QtCore.QRect(9, 629, 1731, 215))
+        self.groupBox_7.setObjectName("groupBox_7")
+        self.listWidget_terminal = QtWidgets.QListWidget(self.groupBox_7)
+        self.listWidget_terminal.setGeometry(QtCore.QRect(10, 20, 1711, 181))
+        self.listWidget_terminal.setObjectName("listWidget_terminal")
+        self.tabWidget_2 = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget_2.setGeometry(QtCore.QRect(1164, 10, 589, 611))
+        self.tabWidget_2.setObjectName("tabWidget_2")
+        self.tab_5 = QtWidgets.QWidget()
+        self.tab_5.setObjectName("tab_5")
+        self.label_snapshots = QtWidgets.QLabel(self.tab_5)
+        self.label_snapshots.setGeometry(QtCore.QRect(10, 10, 561, 561))
+        self.label_snapshots.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_snapshots.setText("")
+        self.label_snapshots.setObjectName("label_snapshots")
+        self.tabWidget_2.addTab(self.tab_5, "")
+        self.tab_6 = QtWidgets.QWidget()
+        self.tab_6.setObjectName("tab_6")
+        self.pushButton_plot = QtWidgets.QPushButton(self.tab_6)
+        self.pushButton_plot.setGeometry(QtCore.QRect(500, 10, 75, 23))
+        self.pushButton_plot.setObjectName("pushButton_plot")
+        self.pushButton_plot.raise_()
+        self.tabWidget_2.addTab(self.tab_6, "")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 579, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1761, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -191,17 +300,18 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         self.tabWidget_methods.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget_2.setCurrentIndex(0)
+        self.pushButton_2.clicked.connect(self.listWidget_2.clear)
+        self.pushButton_2.clicked.connect(self.listWidget_3.clear)
+        self.pushButton_2.clicked.connect(self.listWidget_4.clear)
+        self.pushButton_2.clicked.connect(self.listWidget_5.clear)
+        self.pushButton_2.clicked.connect(self.listWidget_6.clear)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton_excelfilesfolder.setText(_translate("MainWindow", "Excel Files Folder"))
-        self.pushButton.setText(_translate("MainWindow", "Snapshots Folder"))
-        self.pushButton_create.setText(_translate("MainWindow", "Create Environment"))
-        self.pushButton_reset.setText(_translate("MainWindow", "RESET"))
-        self.label_info.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:11pt; font-weight:600;\">README</span></p><p><span style=\" color:#ffffff;\">-</span>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p><p><span style=\" font-size:9pt;\">• The program can only be used for outer diameter measurements of parts with circular geometry. It uses 5 different measurement methods: &quot;Pixel Counter&quot;, &quot;Circle Fitting&quot;, &quot;Devernay Method&quot;, &quot;Accurate Subpixel Edge Detection Method&quot; and &quot;Zernike Moment Method&quot;. Except for the first two of these methods, the others make measurements in subpixel size.</span></p><p><span style=\" font-size:9pt;\">• In the </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Preparations&quot;</span><span style=\" font-size:9pt;\"> tab, initial settings will be made so that the program can work properly.</span></p><p><span style=\" font-size:9pt;\">• In the first step, click on the </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Excel Files Folder&quot;</span><span style=\" font-size:9pt;\"> button and select the folder where the result files of the measurements will be located with </span><span style=\" font-size:9pt; font-weight:600;\">.csv</span><span style=\" font-size:9pt;\"> extension.</span></p><p><span style=\" font-size:9pt;\">• Then click the &quot;</span><span style=\" font-size:9pt; font-weight:600;\">Snapshots Folder</span><span style=\" font-size:9pt;\">&quot; button and select the folder where the images for which diameter values are to be obtained are located.</span></p><p><span style=\" font-size:9pt;\">• It provides configuration of folders to be created for</span><span style=\" font-size:9pt; font-weight:600;\"> Devernay Method</span><span style=\" font-size:9pt;\"> and </span><span style=\" font-size:9pt; font-weight:600;\">Accurate Subpixel Edge Detection (Matlab Code) Method</span><span style=\" font-size:9pt;\"> via </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Create Environment&quot;</span><span style=\" font-size:9pt;\"> button. These files will be stored in the folder where the Excel files are located.</span></p><p><span style=\" font-size:9pt;\">• The </span><span style=\" font-size:9pt; font-weight:600;\">&quot;RESET&quot;</span><span style=\" font-size:9pt;\"> button should be used to clear the cookies of previous operations.</span></p><p><span style=\" font-size:9pt;\">• Then, by coming to the</span><span style=\" font-size:9pt; font-weight:600;\"> &quot;Methods&quot;</span><span style=\" font-size:9pt;\"> tab, any desired method can perform diameter measurements by simply pressing the relevant button.</span></p><p><span style=\" font-size:9pt;\">• Each measurement method has its own separate parameters and they can be easily adjusted via the UI.</span><br/></p><p><br/></p></body></html>"))
-        self.tabWidget_methods.setTabText(self.tabWidget_methods.indexOf(self.tab_2), _translate("MainWindow", "Preparation"))
         self.groupBox.setTitle(_translate("MainWindow", "Pixel Counter"))
         self.lineEdit_thresholdvalue.setText(_translate("MainWindow", "254"))
         self.label_3.setText(_translate("MainWindow", "Radius:"))
@@ -240,8 +350,32 @@ class Ui_MainWindow(object):
         self.pushButton_zernikePy.setText(_translate("MainWindow", "Zernike Moment (Python)"))
         self.label_4.setText(_translate("MainWindow", "Radius:"))
         self.tabWidget_methods.setTabText(self.tabWidget_methods.indexOf(self.tab), _translate("MainWindow", "Methods"))
+        self.tabWidget_methods.setTabText(self.tabWidget_methods.indexOf(self.tab_2), _translate("MainWindow", "Preparation"))
+        self.label_info.setText(_translate("MainWindow", "<html><head/><body><p align=\"justify\"><span style=\" font-size:11pt; font-weight:600;\">README</span></p><p align=\"justify\"><span style=\" color:#ffffff;\">-</span>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p><p align=\"justify\"><span style=\" font-size:9pt;\">• The program can only be used for outer diameter measurements of parts with circular geometry. It uses 5 different measurement methods: &quot;Pixel Counter&quot;, &quot;Circle Fitting&quot;, &quot;Devernay Method&quot;, &quot;Accurate Subpixel Edge Detection Method&quot; and &quot;Zernike Moment Method&quot;. Except for the first two of these methods, the others make measurements in subpixel size.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• In the </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Preparations&quot;</span><span style=\" font-size:9pt;\"> tab, initial settings will be made so that the program can work properly.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• In the first step, click on the </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Excel Files Folder&quot;</span><span style=\" font-size:9pt;\"> button and select the folder where the result files of the measurements will be located with </span><span style=\" font-size:9pt; font-weight:600;\">.csv</span><span style=\" font-size:9pt;\"> extension.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• Then click the &quot;</span><span style=\" font-size:9pt; font-weight:600;\">Snapshots Folder</span><span style=\" font-size:9pt;\">&quot; button and select the folder where the images for which diameter values are to be obtained are located.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• It provides configuration of folders to be created for</span><span style=\" font-size:9pt; font-weight:600;\"> Devernay Method</span><span style=\" font-size:9pt;\"> and </span><span style=\" font-size:9pt; font-weight:600;\">Accurate Subpixel Edge Detection (Matlab Code) Method</span><span style=\" font-size:9pt;\"> via </span><span style=\" font-size:9pt; font-weight:600;\">&quot;Create Environment&quot;</span><span style=\" font-size:9pt;\"> button. These files will be stored in the folder where the Excel files are located.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• The </span><span style=\" font-size:9pt; font-weight:600;\">&quot;RESET&quot;</span><span style=\" font-size:9pt;\"> button should be used to clear the cookies of previous operations.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• Then, by coming to the</span><span style=\" font-size:9pt; font-weight:600;\"> &quot;Methods&quot;</span><span style=\" font-size:9pt;\"> tab, any desired method can perform diameter measurements by simply pressing the relevant button.</span></p><p align=\"justify\"><span style=\" font-size:9pt;\">• Each measurement method has its own separate parameters and they can be easily adjusted via the UI.</span><br/></p><p align=\"justify\"><br/></p></body></html>"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), _translate("MainWindow", "Info"))
+        item = self.tableWidget.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Pixel Counter"))
+        item = self.tableWidget_2.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Circle Fitting"))
+        item = self.tableWidget_3.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Devernay M."))
+        item = self.tableWidget_4.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "A. Subpixel E. D."))
+        item = self.tableWidget_5.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Zernike Moment"))
+        self.pushButton_reset.setText(_translate("MainWindow", "RESET"))
+        self.pushButton_excelfilesfolder.setText(_translate("MainWindow", "Excel Files Folder"))
+        self.pushButton_create.setText(_translate("MainWindow", "Create Environment"))
+        self.pushButton.setText(_translate("MainWindow", "Snapshots Folder"))
+        self.pushButton_2.setText(_translate("MainWindow", "Clear Tables"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), _translate("MainWindow", "Measurement Results"))
+        self.groupBox_7.setTitle(_translate("MainWindow", "Output"))
+        self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_5), _translate("MainWindow", "Snapshot"))
+        self.pushButton_plot.setText(_translate("MainWindow", "Plot"))
+        self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_6), _translate("MainWindow", "Analysis"))
 
-        
+
+
 #######################################################################################  MAIN PROGRAM  ###################################################################################################################
 
 import os
@@ -255,7 +389,6 @@ import random
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 from subpixel_edges import subpixel_edges
 
@@ -264,14 +397,13 @@ from PyQt5 import QtGui, QtCore, QtWidgets
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap, QIcon, QImage
 from PyQt5.QtCore import pyqtSignal, pyqtSlot, Qt, QThread
-from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFileDialog, QListWidget
+from PyQt5.QtWidgets import QTableWidget,QTableWidgetItem
 
 #Zernike Moment
 from modules import *
 from functions import *
         
-#Different Python Files    
-
 class GUI(QMainWindow):  
     
     def __init__(self):
@@ -281,6 +413,12 @@ class GUI(QMainWindow):
         self.setWindowTitle("Diameter Measurement Program")
         self.show()      
         self.setWindowIcon(QtGui.QIcon('logo.ico'))
+        
+        self.ui.listWidget_terminal.addItem("~~ DIAMETER MEASUREMENT PROGRAM ~~\n")
+        
+        self.ui.label_snapshots.setPixmap(QPixmap('default_snapshot.bmp'))
+        #self.ui.label_snapshots.resize(QPixmap('default_snapshot.bmp').width(), QPixmap('default_snapshot.bmp').height())
+        self.ui.label_snapshots.setScaledContents(1)
         
         self.ui.pushButton_pixelCounter.clicked.connect(self.method_connected_components)
         self.ui.pushButton_circleFitting.clicked.connect(self.method_circle_fitting)
@@ -310,7 +448,6 @@ class GUI(QMainWindow):
         return len([1 for x in list(os.scandir(dir)) if x.is_file()])
     
     def createEnvironment(self):
-        
         try:
             devernaypgm_path = main_path + "/devernay/pgm"
             devernaytxt_path = main_path + "/devernay/txt"
@@ -323,8 +460,8 @@ class GUI(QMainWindow):
         
         except (FileExistsError):
             print("Folders Already Exists")
+            self.ui.listWidget_terminal.addItem("- Folders Already Exists")
             pass
-        
         except Exception as e:
             raise e
         
@@ -355,6 +492,7 @@ class GUI(QMainWindow):
         numberoffiles = self.count_files(snapshots_path)
         file_list = self.file_list(snapshots_path)
         
+        row = 0
         for i in range(numberoffiles):
             img = cv2.imread(snapshots_path + "/" + file_list[i],0)
             print(snapshots_path + "/" + file_list[i])
@@ -392,11 +530,21 @@ class GUI(QMainWindow):
             print("number_of_green_pixels:      ", number_of_circle_pixels)
             print("diameter:                    ", radius*2)
             diameter = radius*2
-            self.ui.label_radius_pixelCounter.setText(str(radius*2))
             
+            self.ui.label_radius_pixelCounter.setText(str(radius*2))
             radius_list.append(diameter)
-
+        
+        
         np.savetxt(main_path + "/pixelcounter.csv", radius_list)
+        
+        print(radius_list)
+        radius_list = np.array(radius_list)
+        
+        radius_list_2 = np.around(radius_list,5).astype('str')
+        
+        self.ui.listWidget_2.addItems(radius_list_2)
+        self.ui.listWidget_terminal.addItem("Connected Components - Pixel Counter has been completed...")
+        self.ui.listWidget_terminal.addItem("Parameters are :         Threshold: " + str(threshold_value))
         
     def method_circle_fitting(self):
         def circleFit(x,y):
@@ -496,6 +644,15 @@ class GUI(QMainWindow):
             radius_list.append(circleFit(x,y))
 
         np.savetxt(main_path + "/circlefitting.csv", radius_list)
+        
+        radius_list = np.array(radius_list)
+        
+        radius_list_2 = np.around(radius_list,5).astype('str')
+        
+        self.ui.listWidget_3.addItems(radius_list_2)
+        
+        self.ui.listWidget_terminal.addItem("Circle Fitting has been completed...")
+        self.ui.listWidget_terminal.addItem("Parameters are :         Threshold: " + str(threshold_value) + "           Points: " + str(points))
 
     def method_devernay(self):
         
@@ -578,6 +735,15 @@ class GUI(QMainWindow):
         print("\nOuter Radius: {}".format(outer_radius))
         
         np.savetxt(main_path + "/devernay.csv", outer_radius)
+        
+        radius_list = np.array(outer_radius)
+        
+        radius_list_2 = np.around(radius_list,5).astype('str')
+        
+        self.ui.listWidget_4.addItems(radius_list_2)
+        
+        self.ui.listWidget_terminal.addItem("Devernay Method has been completed...")
+        self.ui.listWidget_terminal.addItem("Parameters are :         s: " + str(s) + "           l: " + str(l) + "           h: " + str(h) + "           w: " + str(w))
     
     def method_matlab_code(self):
         def circleFit(x,y):
@@ -688,6 +854,16 @@ class GUI(QMainWindow):
         print("Outer Radius: {}".format(radius_list))
 
         np.savetxt(main_path + "/matlab_code.csv", radius_list)
+        
+        radius_list = np.array(radius_list)
+        
+        radius_list_2 = np.around(radius_list,5).astype('str')
+        
+        self.ui.listWidget_5.addItems(radius_list_2)
+        
+        self.ui.listWidget_terminal.addItem("Accurate Subpixel Edge Detection (Matlab Code) has been completed...")
+        self.ui.listWidget_terminal.addItem("Parameters are :         Threshold: " + str(th) + "           Iterations: " + str(iters) + "           Order: " + str(order) + "           Color: " + str(color))
+        
     
     def zernikeMomentPython(self):
         
@@ -782,22 +958,30 @@ class GUI(QMainWindow):
             gpars_list.append("ghosal_edge_parameters.txt")
             weight_list.append("1500kg")
                     
+        # Name,process,GPars,averageWeight
+
         df = pd.DataFrame({'Name': name_list, 'process': process_list, 'GPars': gpars_list, 'averageWeight': weight_list})
         print(df)
 
         df.to_csv(main_path + "/imageinfo.csv", index=False)
-
+        
+        ### Read Settings Files
+        # the test matrix contains the names of images to be processed 
+        # and information on how to process each one
+        
         img_info = pd.read_csv(
             os.path.join(main_path,"imageinfo.csv"),sep=",")
         idx_cases = np.where(img_info.process == "x")
-        img_info = img_info.iloc[idx_cases[0]]
+        img_info = img_info.iloc[idx_cases[0]] # remove images wo/ x
         ncases = len(img_info)
+        # the folder where the results are to be saved
         
         save = pd.read_csv(os.path.join(main_path,"saveTo.csv"),sep="	").iloc[0].directory
         
         if not os.path.isdir(save):
-            os.mkdir(save)    
-
+            os.mkdir(save)
+        
+        # new folder with timestamp
         savedirect = os.path.join(save)
         if not os.path.isdir(savedirect):
             os.mkdir(savedirect)
@@ -858,12 +1042,18 @@ class GUI(QMainWindow):
         print("Outer Radius: {}".format(rad_list))
 
         np.savetxt(main_path + "/zernike_moment_py.csv", rad_list)
+        
+        radius_list = np.array(rad_list)
+        
+        radius_list_2 = np.around(radius_list,5).astype('str')
+        
+        self.ui.listWidget_6.addItems(radius_list_2)
+        
+        self.ui.listWidget_terminal.addItem("Zernike Moments Method has been completed...")
 
 application = QApplication([])
-
 # Force the style to be the same on all OSs:
 #application.setStyle("Fusion")
-
 window = GUI()
 window.show()
 
