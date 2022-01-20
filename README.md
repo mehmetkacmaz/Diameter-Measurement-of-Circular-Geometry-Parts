@@ -39,8 +39,7 @@ Python Version: 3.7.0
 
 First, the libraries.py file can be run to ensure that the necessary libraries for the program are installed and the program can run in the same code.
 
-
-![image](https://user-images.githubusercontent.com/52501795/148018218-7eb48b1e-042b-449e-aeb0-a8300dc1c05d.png)
+![Capture](https://user-images.githubusercontent.com/52501795/150293981-ffc7fc7a-ae52-4d87-9daa-e3a237e9d27b.PNG)
 
 • In the "Preparations" tab, initial settings will be made so that the program can work properly.
 
@@ -52,10 +51,7 @@ First, the libraries.py file can be run to ensure that the necessary libraries f
 
 • The "RESET" button should be used to clear the cookies of previous operations.
 
-
-![image](https://user-images.githubusercontent.com/52501795/148019335-860ea68e-d719-491a-bda8-3a4fdbd7e429.png)
-
-
+![Capture](https://user-images.githubusercontent.com/52501795/150294589-8ccd69d7-60a1-489d-8a4c-45d91a2e5a70.PNG)
 
 • Then, by coming to the "Methods" tab, any desired method can perform diameter measurements by simply pressing the relevant button.
 
